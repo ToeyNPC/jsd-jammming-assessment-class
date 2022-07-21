@@ -1,7 +1,7 @@
 // TODO: Get Client ID from https://developer.spotify.com/dashboard/ and put it here
 const clientId = "7000be6c79a84edab74d383d11713a12";
 
-const redirectUri = "http://127.0.0.1:5173/";
+const redirectUri = "https://13nuttapong.surge.sh/";
 const spotifyUrl = `https://accounts.spotify.com/authorize?response_type=token&scope=playlist-modify-public&client_id=${clientId}&redirect_uri=${redirectUri}`;
 let accessToken = undefined;
 let expiresIn = undefined;
